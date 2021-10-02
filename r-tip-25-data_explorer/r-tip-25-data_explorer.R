@@ -37,3 +37,11 @@ forcats::gss_cat %>% DataExplorer::profile_missing()
 forcats::gss_cat %>% DataExplorer::plot_density()
 
 forcats::gss_cat %>% DataExplorer::plot_histogram()
+
+# Categorical features ----
+
+forcats::gss_cat %>% DataExplorer::plot_bar()
+
+# Relationships ----
+
+forcats::gss_cat %>% DataExplorer::plot_correlation()
